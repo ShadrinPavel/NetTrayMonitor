@@ -1,0 +1,8 @@
+﻿  NetTrayMonitorCpp.cpp
+d:\Yandex.Disk\!!! ТЕКУЩИЕ РАБОТЫ !!!\NetTrayMonitorCpp\NetTrayMonitorCpp\NetTrayMonitorCpp.cpp(39,665): warning C4244: return: преобразование "WPARAM" в "int", возможна потеря данных
+  Создание кода
+  7 of 10 functions (70.0%) were compiled, the rest were copied from previous compilation.
+    6 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  NetTrayMonitorCpp.vcxproj -> d:\Yandex.Disk\!!! ТЕКУЩИЕ РАБОТЫ !!!\NetTrayMonitorCpp\NetTrayMonitorCpp\x64\Release\NetTrayMonitorCpp.exe
