@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>d:\Yandex.Disk\NetTrayMonitorCpp\x64\Release\NetTrayMonitorCpp.exe</FullPath>
+      <FullPath>D:\Yandex.Disk\NetTrayMonitorCpp\x64\Debug\NetTrayMonitorCpp.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

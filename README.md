@@ -1,55 +1,28 @@
-﻿# NetTrayMonitor 🚀
+﻿# NetTrayMonitor (Монитор интернет-трафика)
 
-*[English version below](#english-version)*
+**Версия:** 1.2.0  
+**Разработчик:** Павел Шадрин (ShadrinPavel)  
+**Лицензия:** MIT License (Распространяется бесплатно, «Как есть»)  
+**ОС:** Windows 10 / 11 (x64)
 
-**Легковесный портабельный монитор интернет-трафика для системного трея Windows.**
+## Описание проекта
+NetTrayMonitor — это ультимативно легковесная, 100% портабельная утилита для мониторинга скорости входящего и исходящего интернет-трафика. Программа выводит данные в реальном времени поверх Панели задач Windows, обеспечивая идеальную интеграцию с системным интерфейсом. 
 
-## 📌 Описание
-Программа создана для мониторинга **реальной** скорости интернет-соединения в реальном времени. Виджет аккуратно встраивается в панель задач (слева от системного трея) и динамически подстраивается под ширину текста.
+Проект создавался с упором на нулевое потребление ресурсов и абсолютную независимость от системного реестра.
 
-**Версия:** 1.0.0  
-**Автор:** Павел Шадрин (pavel.shadrin@gmail.com)  
-**Дата создания:** 09.08.2026 г.  
+## Ключевые возможности и архитектура
+* **Абсолютная портативность (Portable):** Не использует реестр для сохранения параметров и не оставляет следов в папках %APPDATA% или %LOCALAPPDATA%.
+* **Нулевая нагрузка:** Написана на чистом C++ с использованием нативного Win32 API. Не требует .NET Framework, VCRedist или других зависимостей. 
+* **Динамический 10px-барьер:** Автоматически сдвигает область системного трея (TrayNotifyWnd / ReBarWindow32), выдерживая строгий отступ в 10 пикселей от левого края монитора. Корректно реагирует на изменение высоты панели задач (1 строка / 2 строки) и ширины текста.
+* **Безопасное завершение (SEH-перехватчик):** Внедрен глобальный фильтр необработанных исключений (SetUnhandledExceptionFilter). При любом аппаратном или программном сбое виджет мгновенно самоликвидируется, восстанавливает заводские границы панели задач и не оставляет «фантомных иконок» или диалоговых окон с ошибками.
+* **Независимый рендер:** Иконки запущенных программ никогда не перекрывают текст. Вывод данных осуществляется через прозрачное слоистое окно поверх всех окон (WS_EX_LAYERED | WS_EX_TOPMOST).
 
-## ⚙️ Особенности
-*   **Минимальная нагрузка:** Нулевое потребление процессора, работа напрямую через Win32 API и GDI.
-*   **Portable:** Программа не требует установки, не оставляет следов и не прописывается в системный реестр.
-*   **Совместимость:** Поддержка всех разрядностей ОС Windows (x86 / x64), начиная с Windows 7 и заканчивая Windows 11.
-*   **Умная фильтрация:** Отслеживает только внешний интернет-трафик (маршрут к шлюзу по умолчанию). Игнорирует внутренний локальный трафик виртуальных машин (Hyper-V, WSL 2, Docker) и петлевые интерфейсы.
-*   **Сетевой стандарт (Base-10):** Автоматическое округление данных в телекоммуникационном формате (1000 Kb/s автоматически переводится в 1.0 Mb/s).
-*   **Адаптивный дизайн:** Прозрачный фон, инверсия цветов в зависимости от светлой/тёмной темы ОС, динамическая ширина окна для предотвращения обрезания текста.
+## Системные требования
+* Операционная система: Windows 10 Pro 22H2 или новее.
+* Права администратора: Не требуются для запуска портативной версии.
 
-## ⚖️ Лицензия и Отказ от ответственности (Disclaimer)
-Распространяется **бесплатно** на правах **"AS IS"** (как есть). 
+## История версий
+* **v1.2.0** — Финализация архитектуры. Полное документирование кодовой базы, переход на Open Source.
+* **v1.1.0** — Внедрен алгоритм динамического пересчета 10px-барьера при смене высоты панели задач.
+* **v1.0.0** — Релиз базового функционала, внедрение SEH-перехватчика крашей.
 
-> **⚠️ ВНИМАНИЕ:** Исходный код ядра программы намеренно обфусцирован (подвергнут лексическому искажению и сжатию). Это сделано для защиты логики работы программы от несанкционированного изменения. Автор не несет ответственности за любые прямые или косвенные убытки, возникшие в результате использования данной программы.
-
----
-
-<a name="english-version"></a>
-# NetTrayMonitor 🚀
-
-**A lightweight, portable internet traffic monitor for the Windows system tray.**
-
-## 📌 Description
-Designed to monitor the **real** internet connection speed in real-time. The widget is neatly embedded into the taskbar (to the left of the system tray) and dynamically adjusts to the text width.
-
-**Version:** 1.0.0  
-**Author:** Pavel Shadrin (pavel.shadrin@gmail.com)  
-**Date:** August 9, 2026  
-
-## ⚙️ Features
-*   **Minimal Footprint:** Zero CPU consumption, runs directly via Win32 API and GDI.
-*   **Portable:** Requires no installation, leaves no traces, and makes no system registry entries.
-*   **Compatibility:** Supports all Windows architectures (x86 / x64), from Windows 7 up to Windows 11.
-*   **Smart Filtering:** Tracks only external internet traffic (route to the default gateway). Ignores internal local traffic from virtual machines (Hyper-V, WSL 2, Docker) and loopback interfaces.
-*   **Network Standard (Base-10):** Automatic data rounding in telecommunication format (1000 Kb/s is automatically converted to 1.0 Mb/s).
-*   **Adaptive Design:** Transparent background, automatic color inversion based on the OS light/dark theme, dynamic window width to prevent text clipping.
-
-## ⚖️ License and Disclaimer
-Distributed **for free** on an **"AS IS"** basis.
-
-> **⚠️ WARNING:** The core source code of the program is intentionally obfuscated (subjected to lexical mangling and compression). This is done to protect the program's logic from unauthorized modification. The author is not liable for any direct or indirect damages arising from the use of this software.
-
----
-*Created by Pavel Shadrin | 2026*

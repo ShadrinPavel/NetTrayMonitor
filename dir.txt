@@ -1,0 +1,346 @@
+ Том в устройстве D имеет метку Clouds
+ Серийный номер тома: CD37-C603
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp
+
+26.08.2026  22:01    <DIR>          .
+26.08.2026  22:01    <DIR>          ..
+09.08.2026  20:53                13 .gitattributes
+09.08.2026  20:33                54 .gitignore
+26.08.2026  22:01                 0 dir.txt
+09.08.2026  16:26               637 framework.h
+09.08.2026  20:05    <DIR>          NetTrayM.3826bde3
+09.08.2026  20:03             6 319 NetTrayMonitorCpp.cpp
+09.08.2026  16:26                42 NetTrayMonitorCpp.h
+28.03.2026  15:30            46 227 NetTrayMonitorCpp.ico
+09.08.2026  16:26             7 118 NetTrayMonitorCpp.rc
+09.08.2026  16:26             1 461 NetTrayMonitorCpp.sln
+09.08.2026  16:26             6 829 NetTrayMonitorCpp.vcxproj
+09.08.2026  16:26             1 944 NetTrayMonitorCpp.vcxproj.filters
+09.08.2026  16:26               168 NetTrayMonitorCpp.vcxproj.user
+09.08.2026  20:48             4 734 README.md
+14.08.2026  17:11    <DIR>          Release
+09.08.2026  16:26               879 Resource.h
+28.03.2026  15:30            46 227 small.ico
+09.08.2026  16:26               495 targetver.h
+13.08.2026  18:14    <DIR>          x64
+              16 файлов        123 147 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git
+
+13.08.2026  18:08               309 config
+13.08.2026  18:07                73 description
+13.08.2026  18:08                21 HEAD
+13.08.2026  18:07    <DIR>          hooks
+13.08.2026  18:10             2 440 index
+13.08.2026  18:07    <DIR>          info
+13.08.2026  18:08    <DIR>          logs
+13.08.2026  18:07    <DIR>          objects
+13.08.2026  18:08               170 packed-refs
+13.08.2026  18:08    <DIR>          refs
+               5 файлов          3 013 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\hooks
+
+13.08.2026  18:07    <DIR>          .
+13.08.2026  18:07    <DIR>          ..
+13.08.2026  18:07               478 applypatch-msg.sample
+13.08.2026  18:07               896 commit-msg.sample
+13.08.2026  18:07             4 726 fsmonitor-watchman.sample
+13.08.2026  18:07               189 post-update.sample
+13.08.2026  18:07               424 pre-applypatch.sample
+13.08.2026  18:07             1 649 pre-commit.sample
+13.08.2026  18:07               416 pre-merge-commit.sample
+13.08.2026  18:07             1 374 pre-push.sample
+13.08.2026  18:07             4 898 pre-rebase.sample
+13.08.2026  18:07               544 pre-receive.sample
+13.08.2026  18:07             1 492 prepare-commit-msg.sample
+13.08.2026  18:07             2 783 push-to-checkout.sample
+13.08.2026  18:07             2 308 sendemail-validate.sample
+13.08.2026  18:07             3 650 update.sample
+              14 файлов         25 827 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\info
+
+13.08.2026  18:07    <DIR>          .
+13.08.2026  18:07    <DIR>          ..
+13.08.2026  18:07               240 exclude
+               1 файлов            240 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\logs
+
+13.08.2026  18:08    <DIR>          .
+13.08.2026  18:08    <DIR>          ..
+13.08.2026  18:08               202 HEAD
+13.08.2026  18:08    <DIR>          refs
+               1 файлов            202 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\logs\refs
+
+13.08.2026  18:08    <DIR>          .
+13.08.2026  18:08    <DIR>          ..
+13.08.2026  18:08    <DIR>          heads
+13.08.2026  18:08    <DIR>          remotes
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\logs\refs\heads
+
+13.08.2026  18:08    <DIR>          .
+13.08.2026  18:08    <DIR>          ..
+13.08.2026  18:08               202 main
+               1 файлов            202 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\logs\refs\remotes
+
+13.08.2026  18:08    <DIR>          .
+13.08.2026  18:08    <DIR>          ..
+13.08.2026  18:08    <DIR>          origin
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\logs\refs\remotes\origin
+
+13.08.2026  18:08    <DIR>          .
+13.08.2026  18:08    <DIR>          ..
+13.08.2026  18:08               202 HEAD
+               1 файлов            202 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\objects
+
+13.08.2026  18:07    <DIR>          .
+13.08.2026  18:07    <DIR>          ..
+13.08.2026  18:07    <DIR>          info
+13.08.2026  18:08    <DIR>          pack
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\objects\info
+
+13.08.2026  18:07    <DIR>          .
+13.08.2026  18:07    <DIR>          ..
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\objects\pack
+
+13.08.2026  18:08    <DIR>          .
+13.08.2026  18:08    <DIR>          ..
+13.08.2026  18:08             2 108 pack-920cf4c266946cb3e25802b915cc64830e2a4154.idx
+13.08.2026  18:10            40 010 pack-920cf4c266946cb3e25802b915cc64830e2a4154.pack
+13.08.2026  18:08               200 pack-920cf4c266946cb3e25802b915cc64830e2a4154.rev
+               3 файлов         42 318 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\refs
+
+13.08.2026  18:08    <DIR>          .
+13.08.2026  18:08    <DIR>          ..
+13.08.2026  18:08    <DIR>          heads
+13.08.2026  18:08    <DIR>          remotes
+13.08.2026  18:08    <DIR>          tags
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\refs\heads
+
+13.08.2026  18:08    <DIR>          .
+13.08.2026  18:08    <DIR>          ..
+13.08.2026  18:08                41 main
+               1 файлов             41 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\refs\remotes
+
+13.08.2026  18:08    <DIR>          .
+13.08.2026  18:08    <DIR>          ..
+13.08.2026  18:08    <DIR>          origin
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\refs\remotes\origin
+
+13.08.2026  18:08    <DIR>          .
+13.08.2026  18:08    <DIR>          ..
+13.08.2026  18:08                30 HEAD
+               1 файлов             30 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.git\refs\tags
+
+13.08.2026  18:08    <DIR>          .
+13.08.2026  18:08    <DIR>          ..
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.vs
+
+13.08.2026  18:13    <DIR>          NetTrayMonitorCpp
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.vs\NetTrayMonitorCpp
+
+13.08.2026  18:13    <DIR>          .
+13.08.2026  18:13    <DIR>          ..
+13.08.2026  18:13    <DIR>          FileContentIndex
+13.08.2026  18:35    <DIR>          v17
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.vs\NetTrayMonitorCpp\FileContentIndex
+
+13.08.2026  18:13    <DIR>          .
+13.08.2026  18:13    <DIR>          ..
+13.08.2026  18:13            36 296 e83d4665-b585-4156-abe5-69132d6b66be.vsidx
+               1 файлов         36 296 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\.vs\NetTrayMonitorCpp\v17
+
+13.08.2026  18:35    <DIR>          .
+13.08.2026  18:35    <DIR>          ..
+13.08.2026  18:35        42 213 376 Browse.VC.db
+13.08.2026  18:16               518 DocumentLayout.backup.json
+13.08.2026  18:35               518 DocumentLayout.json
+13.08.2026  18:35           438 272 Solution.VC.db
+               4 файлов     42 652 684 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\NetTrayM.3826bde3
+
+09.08.2026  20:05    <DIR>          .
+09.08.2026  20:05    <DIR>          ..
+09.08.2026  20:05    <DIR>          Release
+13.08.2026  18:14    <DIR>          x64
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\NetTrayM.3826bde3\Release
+
+09.08.2026  20:05    <DIR>          .
+09.08.2026  20:05    <DIR>          ..
+09.08.2026  20:05    <DIR>          NetTrayM.3826bde3.tlog
+09.08.2026  20:05               359 NetTrayMonitorCpp.exe.recipe
+09.08.2026  20:05            50 405 NetTrayMonitorCpp.iobj
+09.08.2026  20:05            37 600 NetTrayMonitorCpp.ipdb
+09.08.2026  20:05               412 NetTrayMonitorCpp.log
+09.08.2026  20:05           210 684 NetTrayMonitorCpp.obj
+09.08.2026  20:05            93 768 NetTrayMonitorCpp.res
+09.08.2026  20:05           102 400 vc143.pdb
+               7 файлов        495 628 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\NetTrayM.3826bde3\Release\NetTrayM.3826bde3.tlog
+
+09.08.2026  20:05    <DIR>          .
+09.08.2026  20:05    <DIR>          ..
+09.08.2026  20:05             1 018 CL.command.1.tlog
+09.08.2026  20:05               245 Cl.items.tlog
+09.08.2026  20:05            22 642 CL.read.1.tlog
+09.08.2026  20:05               666 CL.write.1.tlog
+09.08.2026  20:05             2 164 link.command.1.tlog
+09.08.2026  20:05             4 928 link.read.1.tlog
+09.08.2026  20:05               546 link.secondary.1.tlog
+09.08.2026  20:05               914 link.write.1.tlog
+09.08.2026  20:05               220 NetTrayMonitorCpp.lastbuildstate
+09.08.2026  20:05               578 rc.command.1.tlog
+09.08.2026  20:05             3 640 rc.read.1.tlog
+09.08.2026  20:05               442 rc.write.1.tlog
+              12 файлов         38 003 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\NetTrayM.3826bde3\x64
+
+13.08.2026  18:14    <DIR>          .
+13.08.2026  18:14    <DIR>          ..
+13.08.2026  18:14    <DIR>          Debug
+13.08.2026  18:16    <DIR>          Release
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\NetTrayM.3826bde3\x64\Debug
+
+13.08.2026  18:14    <DIR>          .
+13.08.2026  18:14    <DIR>          ..
+13.08.2026  18:14    <DIR>          NetTrayM.3826bde3.tlog
+13.08.2026  18:14                 0 NetTrayMonitorCpp.Build.CppClean.log
+13.08.2026  18:14               307 NetTrayMonitorCpp.exe.recipe
+13.08.2026  18:14           852 567 NetTrayMonitorCpp.ilk
+13.08.2026  18:14               304 NetTrayMonitorCpp.log
+13.08.2026  18:14            68 000 NetTrayMonitorCpp.obj
+13.08.2026  18:14            93 768 NetTrayMonitorCpp.res
+13.08.2026  18:14                 0 NetTrayMonitorCpp.vcxproj.FileListAbsolute.txt
+13.08.2026  18:14           207 872 vc143.idb
+13.08.2026  18:14           118 784 vc143.pdb
+               9 файлов      1 341 602 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\NetTrayM.3826bde3\x64\Debug\NetTrayM.3826bde3.tlog
+
+13.08.2026  18:14    <DIR>          .
+13.08.2026  18:14    <DIR>          ..
+13.08.2026  18:14               814 CL.command.1.tlog
+13.08.2026  18:14               139 Cl.items.tlog
+13.08.2026  18:14            22 560 CL.read.1.tlog
+13.08.2026  18:14               572 CL.write.1.tlog
+13.08.2026  18:14             1 712 link.command.1.tlog
+13.08.2026  18:14             4 100 link.read.1.tlog
+13.08.2026  18:14               252 link.secondary.1.tlog
+13.08.2026  18:14               602 link.write.1.tlog
+13.08.2026  18:14               162 NetTrayMonitorCpp.lastbuildstate
+13.08.2026  18:14               418 rc.command.1.tlog
+13.08.2026  18:14             3 230 rc.read.1.tlog
+13.08.2026  18:14               282 rc.write.1.tlog
+              12 файлов         34 843 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\NetTrayM.3826bde3\x64\Release
+
+13.08.2026  18:16    <DIR>          .
+13.08.2026  18:16    <DIR>          ..
+13.08.2026  18:16    <DIR>          NetTrayM.3826bde3.tlog
+13.08.2026  18:16             2 636 NetTrayMonitorCpp.Build.CppClean.log
+13.08.2026  18:16               309 NetTrayMonitorCpp.exe.recipe
+13.08.2026  18:16            57 206 NetTrayMonitorCpp.iobj
+13.08.2026  18:16            38 848 NetTrayMonitorCpp.ipdb
+13.08.2026  18:16               541 NetTrayMonitorCpp.log
+13.08.2026  18:16           213 088 NetTrayMonitorCpp.obj
+13.08.2026  18:16            93 768 NetTrayMonitorCpp.res
+13.08.2026  18:16                 0 NetTrayMonitorCpp.vcxproj.FileListAbsolute.txt
+13.08.2026  18:16           102 400 vc143.pdb
+               9 файлов        508 796 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\NetTrayM.3826bde3\x64\Release\NetTrayM.3826bde3.tlog
+
+13.08.2026  18:16    <DIR>          .
+13.08.2026  18:16    <DIR>          ..
+13.08.2026  18:16               822 CL.command.1.tlog
+13.08.2026  18:16               141 Cl.items.tlog
+13.08.2026  18:16            22 560 CL.read.1.tlog
+13.08.2026  18:16               436 CL.write.1.tlog
+13.08.2026  18:16             1 800 link.command.1.tlog
+13.08.2026  18:16             4 556 link.read.1.tlog
+13.08.2026  18:16               346 link.secondary.1.tlog
+13.08.2026  18:16               618 link.write.1.tlog
+13.08.2026  18:16               164 NetTrayMonitorCpp.lastbuildstate
+13.08.2026  18:16               422 rc.command.1.tlog
+13.08.2026  18:16             3 230 rc.read.1.tlog
+13.08.2026  18:16               286 rc.write.1.tlog
+              12 файлов         35 381 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\Release
+
+14.08.2026  17:11    <DIR>          .
+14.08.2026  17:11    <DIR>          ..
+09.08.2026  20:05           109 568 NetTrayMonitorCpp.exe
+09.08.2026  20:05           626 688 NetTrayMonitorCpp.pdb
+               2 файлов        736 256 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\x64
+
+13.08.2026  18:14    <DIR>          .
+13.08.2026  18:14    <DIR>          ..
+13.08.2026  18:14    <DIR>          Debug
+13.08.2026  18:16    <DIR>          Release
+               0 файлов              0 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\x64\Debug
+
+13.08.2026  18:14    <DIR>          .
+13.08.2026  18:14    <DIR>          ..
+13.08.2026  18:14           188 928 NetTrayMonitorCpp.exe
+13.08.2026  18:14         1 069 056 NetTrayMonitorCpp.pdb
+               2 файлов      1 257 984 байт
+
+ Содержимое папки d:\Yandex.Disk\NetTrayMonitorCpp\x64\Release
+
+13.08.2026  18:16    <DIR>          .
+13.08.2026  18:16    <DIR>          ..
+13.08.2026  18:16           112 640 NetTrayMonitorCpp.exe
+13.08.2026  18:16           610 304 NetTrayMonitorCpp.pdb
+               2 файлов        722 944 байт
+
+     Всего файлов:
+             116 файлов     48 055 639 байт
+              92 папок  466 633 641 984 байт свободно

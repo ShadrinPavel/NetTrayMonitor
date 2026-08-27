@@ -1,0 +1,3 @@
+﻿  NetTrayMonitorCpp.cpp
+D:\Yandex.Disk\NetTrayMonitorCpp\NetTrayMonitorCpp.cpp(39,665): warning C4244: return: преобразование "WPARAM" в "int", возможна потеря данных
+  NetTrayMonitorCpp.vcxproj -> D:\Yandex.Disk\NetTrayMonitorCpp\x64\Debug\NetTrayMonitorCpp.exe
