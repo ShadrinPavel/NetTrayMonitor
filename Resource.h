@@ -1,17 +1,17 @@
 ﻿//{{NO_DEPENDENCIES}}
 // Включаемый файл, созданный в Microsoft Visual C++.
-// Используется NetTrayMonitorCpp.rc
+// Используется NetTrayMonitor.rc
 
 #define IDS_APP_TITLE			103
 
 #define IDR_MAINFRAME			128
-#define IDD_NETTRAYMONITORCPP_DIALOG	102
+#define IDD_NetTrayMonitor_DIALOG	102
 #define IDD_ABOUTBOX			103
 #define IDM_ABOUT				104
 #define IDM_EXIT				105
-#define IDI_NETTRAYMONITORCPP			107
+#define IDI_NetTrayMonitor			107
 #define IDI_SMALL				108
-#define IDC_NETTRAYMONITORCPP			109
+#define IDC_NetTrayMonitor			109
 #define IDC_MYICON				2
 #ifndef IDC_STATIC
 #define IDC_STATIC				-1
@@ -28,3 +28,4 @@
 #define _APS_NEXT_SYMED_VALUE		110
 #endif
 #endif
+
