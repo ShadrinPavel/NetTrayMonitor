@@ -24,17 +24,17 @@
     <ClInclude Include="Resource.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="NetTrayMonitorCpp.h">
+    <ClInclude Include="NetTrayMonitor.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NetTrayMonitorCpp.cpp">
+    <ClCompile Include="NetTrayMonitor.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="NetTrayMonitorCpp.rc">
+    <ResourceCompile Include="NetTrayMonitor.rc">
       <Filter>Файлы ресурсов</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -42,7 +42,7 @@
     <Image Include="small.ico">
       <Filter>Файлы ресурсов</Filter>
     </Image>
-    <Image Include="NetTrayMonitorCpp.ico">
+    <Image Include="NetTrayMonitor.ico">
       <Filter>Файлы ресурсов</Filter>
     </Image>
   </ItemGroup>
