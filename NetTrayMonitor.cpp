@@ -32,3 +32,4 @@ LRESULT CALLBACK _WND(HWND h, UINT m, WPARAM w, LPARAM l) { switch (m) { case 1:
 LONG WINAPI _EH(EXCEPTION_POINTERS* e){if(_h)DestroyWindow(_h);_R();return 1;}
 
 int APIENTRY wWinMain(HINSTANCE I, HINSTANCE, LPWSTR, int) { SetUnhandledExceptionFilter(_EH); HANDLE m = CreateMutex(0, 1, L"NTM_M"); if (!m || GetLastError() == 183)return 0; WNDCLASS w = { 0 }; w.lpfnWndProc = _WND; w.hInstance = I; w.lpszClassName = L"NTM_C"; w.hCursor = LoadCursor(0, IDC_ARROW); RegisterClass(&w); _h = CreateWindowEx(0x00000080 | 0x00080000, L"NTM_C", L"", 0x80000000 | 0x10000000, 0, 0, _cw, 40, 0, 0, I, 0); if (!_h)return 0; SetLayeredWindowAttributes(_h, _L() ? RGB(255, 255, 255) : 0, 0, 1); _P(); MSG g; while (GetMessage(&g, 0, 0, 0)) { TranslateMessage(&g); DispatchMessage(&g); }if (m) { ReleaseMutex(m); CloseHandle(m); }return (int)g.wParam; }
+
